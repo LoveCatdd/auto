@@ -1,4 +1,4 @@
-module github.com/LoveCatdd/init/auto
+module github.com/LoveCatdd/init
 
 go 1.20
 
