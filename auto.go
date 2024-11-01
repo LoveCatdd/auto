@@ -1,7 +1,6 @@
 package auto
 
 import (
-	"log"
 	"os"
 
 	"github.com/LoveCatdd/util/pkg/lib/core/config"
@@ -20,7 +19,5 @@ func init() {
 	config.SetEnviro(environ)
 
 	config.Yaml(auth.JwtConfig)
-
-	log.Println(auth.JwtConfig.Jwt.Secret)
 
 }
