@@ -30,5 +30,7 @@ func init() {
 	config.Yaml(zapConf)
 	if zapConf.Zap.Enable { // 开启
 		log.InitZap(zapConf)
+
+		defer log.Sync()
 	}
 }
