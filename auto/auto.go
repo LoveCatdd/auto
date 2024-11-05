@@ -4,6 +4,7 @@ import (
 	"os"
 
 	"github.com/LoveCatdd/util/pkg/lib/core/config"
+	"github.com/LoveCatdd/util/pkg/lib/core/log"
 	"github.com/LoveCatdd/webctx/pkg/lib/core/web/auth"
 	"github.com/joho/godotenv"
 )
@@ -20,4 +21,11 @@ func init() {
 
 	config.Yaml(auth.JwtConfig)
 
+	zapConf := new(log.ZapConfig)
+
+	config.Yaml(zapConf)
+
+	if zapConf.Zap.Enable { // 开启
+		log.InitZap(zapConf)
+	}
 }

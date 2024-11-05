@@ -1,5 +1,9 @@
 github.com/LoveCatdd/util v1.0.0 h1:K0FPJjkhmCRXtf/tvOGTQCuaahYRYk/rCHJhkCy2mTw=
 github.com/LoveCatdd/util v1.0.0/go.mod h1:U48mVKoaotVmglt+CPVqTvhcyWSb5POlbbsJEwDEliY=
+github.com/LoveCatdd/util v1.0.2 h1:UDLecSsbnX6VBujmwwUD9IWoO+MpfgjIKOcm7irB33I=
+github.com/LoveCatdd/util v1.0.2/go.mod h1:AM3C3LDnkbeui4fdyXg402S51qTlWN0RdqpPdltxeyc=
+github.com/LoveCatdd/util v1.0.4 h1:t17geGl2XH9CN4DEktS4WVtaHw5yOei6TiVMtYyeLRw=
+github.com/LoveCatdd/util v1.0.4/go.mod h1:AM3C3LDnkbeui4fdyXg402S51qTlWN0RdqpPdltxeyc=
 github.com/LoveCatdd/webctx v1.0.7 h1:Rru+m4Z/Z2DxNK6E9kspSTIgWI5vYgJmSkrNuPc8iu0=
 github.com/LoveCatdd/webctx v1.0.7/go.mod h1:yqOGs5FrIsBLX/dN4OIskDe0EUsXmTJBa/XmlLITcBM=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -56,6 +60,7 @@ go.uber.org/atomic v1.9.0 h1:ECmE8Bn/WFTYwEW/bpKD3M8VtR/zQVbavAoalC1PYyE=
 go.uber.org/atomic v1.9.0/go.mod h1:fEN4uk6kAWBTFdckzkM89CLk9XfWZrxpCo0nPH17wJc=
 go.uber.org/multierr v1.9.0 h1:7fIwc/ZtS0q++VgcfqFDxSBZVv/Xo49/SYnDFupUwlI=
 go.uber.org/multierr v1.9.0/go.mod h1:X2jQV1h+kxSjClGpnseKVIxpmcjrj7MNnI0bnlfKTVQ=
+go.uber.org/multierr v1.10.0/go.mod h1:20+QtiLqy0Nd6FdQB9TLXag12DsQkrbs3htMFfDN80Y=
 golang.org/x/exp v0.0.0-20230905200255-921286631fa9 h1:GoHiUyI/Tp2nVkLI2mCxVkOjsbSXD66ic0XW0js0R9g=
 golang.org/x/exp v0.0.0-20230905200255-921286631fa9/go.mod h1:S2oDrQGGwySpoQPVqRShND87VCbxmc6bL1Yd2oYrm6k=
 golang.org/x/sys v0.20.0 h1:Od9JTbYCk261bKm4M/mw7AklTlFYIa0bIp9BgSm1S8Y=
