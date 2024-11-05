@@ -6,6 +6,7 @@ import (
 	"github.com/LoveCatdd/util/pkg/lib/core/config"
 	"github.com/LoveCatdd/util/pkg/lib/core/log"
 	"github.com/LoveCatdd/webctx/pkg/lib/core/web/auth"
+	"github.com/LoveCatdd/webctx/pkg/lib/core/web/server"
 	"github.com/joho/godotenv"
 )
 
@@ -16,15 +17,17 @@ func init() {
 	godotenv.Load("../.env")
 
 	environ := os.Getenv("environment")
-
 	config.SetEnviro(environ)
 
+	// get jwt conf
 	config.Yaml(auth.JwtConfig)
 
+	// get server name and server port conf
+	config.Yaml(server.AppConf)
+
+	// get zap conf
 	zapConf := new(log.ZapConfig)
-
 	config.Yaml(zapConf)
-
 	if zapConf.Zap.Enable { // 开启
 		log.InitZap(zapConf)
 	}
