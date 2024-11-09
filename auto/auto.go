@@ -26,10 +26,10 @@ func init() {
 	config.Yaml(server.AppConf)
 
 	// get zap conf
-	zapConf := new(log.ZapConfig)
-	config.Yaml(zapConf)
-	if zapConf.Zap.Enable { // 开启
-		log.InitZap(zapConf)
+	config.Yaml(log.Config)
+	if log.Config.Zap.Enable { // 开启
+
+		log.InitZap()
 
 		defer log.Sync()
 	}

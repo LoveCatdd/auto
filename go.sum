@@ -1,5 +1,9 @@
 github.com/LoveCatdd/util v1.0.14 h1:UBv+N1jekJdAByHtmb1C6n0emR4OvIER9of2CIhpHGw=
 github.com/LoveCatdd/util v1.0.14/go.mod h1:AM3C3LDnkbeui4fdyXg402S51qTlWN0RdqpPdltxeyc=
+github.com/LoveCatdd/util v1.0.15 h1:SzX9E41shZHu5sc/ChLJxSEcky5qeXj0QrZrcH7y1EU=
+github.com/LoveCatdd/util v1.0.15/go.mod h1:AM3C3LDnkbeui4fdyXg402S51qTlWN0RdqpPdltxeyc=
+github.com/LoveCatdd/util v1.0.16 h1:o79v6Mw2QDXe3ZDu3OPpJ1kUrzZ/d88J1y35QKbtKik=
+github.com/LoveCatdd/util v1.0.16/go.mod h1:AM3C3LDnkbeui4fdyXg402S51qTlWN0RdqpPdltxeyc=
 github.com/LoveCatdd/webctx v1.0.15 h1:n6LAyJawAKc33Ywkwxi0sMJ3FG4BgQ+dBt650SfExMY=
 github.com/LoveCatdd/webctx v1.0.15/go.mod h1:bijUPwTWH+f2q/Kq2Z74Mcu2eOfZEle62/v+n/v7n6g=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
