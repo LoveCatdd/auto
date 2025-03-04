@@ -3,7 +3,7 @@ module github.com/LoveCatdd/auto
 go 1.20
 
 require (
-	github.com/LoveCatdd/util v1.0.17
+	github.com/LoveCatdd/util v1.0.18
 	github.com/LoveCatdd/webctx v1.0.21
 	github.com/joho/godotenv v1.5.1
 )
